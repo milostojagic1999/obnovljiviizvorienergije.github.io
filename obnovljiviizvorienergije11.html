@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<html>
+<!-- HEAD !!! --> 
+  <head>
+<!-- FONT LINKOVI -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+<!-- STYLE !!! --> 
+  <style>
+  .h1 {
+  	font-size: 70px;
+    color: #F8F8FF;
+  	text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    background-color:  #EFCB29;
+  }
+  .slikaporednaslova {
+     width:70px;
+     height:70px;
+     position:relative;
+     top:10px;
+     bottom: 20px;
+     right:20px;
+  }
+  .body {
+     background-color: #EFCB29;
+     background-size: 100% 100%;
+     border-left: 2px solid green;
+     border-right: 2px solid green;
+  }
+  
+  .glavnidiv {
+     background-color: #F7F7F7;
+     background-size: 100% 100%;
+  }
+  .navigacija li {
+  	background-color: #EFCB29;
+  	list-style-type: none;
+  	text-transform: uppercase;
+  	display: inline;
+  	font-size: 20px;
+  	padding-right: 10px;
+  	padding-left: 10px;
+    padding-bottom:3px;
+  	margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+  .reciunavigaciji  {
+    color:#F8F8FF;
+
+  }
+  .reciunavigaciji:hover  {
+    color:green;
+
+  }
+
+  .onama {
+  	color:#000000;
+  	font-size: 23px;
+  }
+  .sekcija {
+  	color: #E0FFFF;
+    background-color: #EFCB29;
+  	font-size: 40px;
+  	text-align: center;
+    font-family: 'Chewy', cursive;
+     }
+  .meni {
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	font-size: 17px;
+    padding: 5px;
+  }
+  .slikaprva {
+    width: 100%;
+    height: 500px;
+
+  }
+  .malinaslov {
+    background-image: url("");
+    font-size: 40px;
+    text-align: center;
+    color: #96A708;
+  }
+  .tekstispodnaslova {
+    color: #96A708;
+    font-size: 30px;
+    text-align: center;
+  }
+  .malinaslov2 {
+     background-image: url("");
+    font-size: 35px;
+    text-align: center;
+    color: #96A708;
+    text-decoration:;
+
+  }
+  .malinaslov22 {
+     font-size: 35px;
+    text-align: center;
+    color: #0BA210;
+    text-decoration:;
+    }
+  .slikaudivudesno {
+   float: right;
+   width: 750px;
+   height:300px;
+   margin-left:10px;
+   margin-top:10px;
+   margin-bottom: :10px;
+   border-radius: 8px;
+
+  }
+  .slikaudivulevo   {
+   float: left;
+   width: 500px;
+   height:300px;
+   margin-right:10px;
+   margin-top:10px;
+   margin-bottom: :10px;
+   border-radius: 8px;
+
+  }
+  .slikaudivudesno2   {
+   float: right;
+   width: 350px;
+   height:300px;
+   margin-left:10px;
+   margin-top:10px;
+   margin-bottom: :10px;
+   border-radius: 8px;
+
+  }
+  .slikapolapolalevo   {
+   float:left;
+   width: 50%;
+   height:400px;
+   margin-left:;
+   margin-top:10px;
+   margin-bottom:10px;
+
+  }
+  .slikapolapoladesno   {
+   float:right;
+   width: 50%;
+   height:400px;
+   margin-left:;
+   margin-top:10px;
+   margin-bottom:10px;
+  }
+  .slikahidroelektrana {
+   width: 100%;
+   height:500px;
+   margin-top:10px;
+   margin-bottom:10px;
+  }
+  .slikabiomasa {
+   float:left;
+   width: 70%;
+   height:300px;
+   margin-left:10px;
+   margin-right: 10px;
+   margin-top:10px;
+   margin-bottom:10px;
+   border-radius: 8px;
+  }
+  .tekstodvojenodbordera
+  {
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+   #dugmegore {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: #BBBBBB;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#dugmegore:hover {
+  background-color: #BBBBBB;
+  color: green;
+}
+.a {
+    color: green;
+}
+.a:hover {
+    color: red;
+}
+#svakidanjedan  {
+  width: 100%;
+  height:700px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  
+}
+#kraj  {
+ text-align:center;
+ background-color: #DFDFDF;
+}
+#radio  {
+  font-size:40px;
+    color: #FF0000;
+}
+#mt  {
+  font-size:50px;
+    color: #1855D3;
+    font-family:"Pacifico" ;
+}
+#e42  {
+  font-size:30px;
+    color: white;
+}
+.crvenarec  {
+color:red;
+}
+  </style>
+<!-- /STYLE !!! --> 
+  </head>
+
+<!-- /HEAD !!! -->
+
+
+
+
+
+
+<!-- BODY !!! -->
+  <body class="body" >
+  <!-- DUGME -->
+  <button onclick="topFunction()" id="dugmegore" title="Vratite se na početak">POČETAK</button>
+  <!-- /DUGME -->
+<!-- SKRIPTA ZA DUGME -->
+  <script>
+// KADA KORISIK SKROLUJE ZA 20PX, POJAVLJUJE SE DUGME 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("dugmegore").style.display = "block";
+    } else {
+        document.getElementById("dugmegore").style.display = "none";
+    }
+}
+
+// KADA KORISNIK PRITISNE DUGME, VRAĆA SE NA POČETAK STRANICE
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- /SKRIPTA ZA DUGME -->
+  <div class="glavnidiv">
+<!-- HEADER -->
+    <header>
+      <h1 class="h1">
+          <img src="http://www.cyberphysics.co.uk/graphics/diagrams/energy/renewable.png" class="slikaporednaslova">
+          <span>Obnovljivi izvori energije</span>
+      </h1>
+        <ul class="navigacija">
+          <li>
+            <a href="#energijavetra" class="reciunavigaciji">
+              Energija vetra
+            </a>
+          </li>
+          <li>
+            <a href="#energijasunca" class="reciunavigaciji">
+              Energija sunca
+            </a>
+          </li>
+          <li>
+            <a href="#energijavode" class="reciunavigaciji">
+              Energija vode
+            </a>
+          </li>
+          <li>
+            <a href="#geotermalnaenergija" class="reciunavigaciji">
+              Geotermalna energija
+            </a>
+          </li>
+          <li>
+            <a href="#biomasa" class="reciunavigaciji">
+              Biomasa
+            </a>
+          </li>
+        </ul>
+    </header>
+<!-- /HEADER -->
+<!--Početna-->
+
+
+     <p class="malinaslov">Korišćenje obnovljivih izvora energije je od izuzetne važnosti za opstanak živog sveta na planeti Zemlji</p>
+     <br>
+     <p class="tekstispodnaslova">
+     <img src="http://www.ekokuce.com/sites/default/files/slike/obnovljivi-izvori-energije-05_0.jpg" class="slikaprva" >
+     Obnovljivi izvori energije predstavljaju neiscrpne izvore energije iz prirode koji se obnavljaju u određenom vremenskom intervalu, u celosti ili delimično.
+     Obnovljivi izvori energije se eksploatišu s ciljem proizvodnje električne, toplotne i mehaničke energije, a njihova značajna održiva karakteristika jeste neškodljivost za okolinu, sa smanjenom ili redukovanom emisijom CO2 u procesu proizvodnje energije.
+     Republika Srbija raspolaže obnovljivim izvorima energije Sunca, vode, vetra, geotermalne energije i biomase.
+     <br>
+     <span style="text-decoration: underline; color: #DB9410;">Korišćenjem obnovljivih izvora energije dobijamo mnogo:</span>
+     <p class="malinaslov2">
+     <br>
+     Smanjenje emisije zagađujućih gasova staklene bašte
+     <br>
+     Manje zagađenje životne sredine
+     <br>
+     Neiscrpan su izvor energije
+     <br>
+     Isplativost, mala ulaganja izuzev početnih
+     </p>
+
+     
+    </p>
+<!-- ENERGIJA VETRA -->
+
+    <p class="sekcija">
+      <a id="energijavetra">
+        Energija vetra
+      </a>
+    </p>  
+    <div class="onama">
+      
+        <p class="malinaslov22">Energetska budućnost u izgradnji vetroparkova</p>
+        <p class="tekstodvojenodbordera">
+        <br>
+        Različiti obnovljivi izvori energije, zajedno sa svim merama unapređenja energetske efikanosti i ušteda energije, predstavljaju jedino rešenje za što hitnije i radikalno smanjenje emisije štetnih gasova (emisije CO2) sa efektomstaklene bašte koja je prouzrokovana spaljivanjem fosilnih goriva, krčenjem šuma i raščišćavanjem zemljišta za poljoprivredu.
+        <br>
+        <br>
+        I dok vetar nesumnjivo spada u jeftin i veoma isplativ vid obnovljivog izvora energije koji se sve više koristi širom Evrope za proizvodnju električne energije, Srbija se ne nalazi u vrhu spiska zemalja koje imaju izuzetno visok stepen iskorišćenja potencijala vetra. Štaviše, od svih raspoloživih obnovljivih izvora energije u Srbiji naleti vetrova, ma kako nam se ponekad činili siloviti, imaju najmanji potencijal. Ipak, to ne znači da u našoj zemlji ne postoje područja u kojima se energija vetra ne može iskoristiti. Naprotiv.
+        <img src="https://www.energy.gov/sites/prod/files/styles/borealis_article_hero_respondxl/public/IKEA%20Cameron%2C%20TX%20Wind%20Farm%20photo.png?itok=y63mku0i" class="slikaudivudesno">
+Najveći potencijal energije vetra u Srbiji nalazi se u košavskom području kao što su južni Banat i istočna Srbija, zatim na istočnoj strani Kopaonika, na području Zlatibora, Peštera i na lokalitetima planinskih prevoja na nadmorskim visinama iznad 800m, kao i u dolinama reka Dunava, Save i Morave.
+Mape prosečne snage i energije vetra koje je izradio Institut za multidisciplinarna istraživanja Univerziteta u Beogradu u okviru svoje studije Globalna procena energetskog potencijala vetra u Srbiji iz 2010. godine možete pogledati 
+<a href="https://www.energetskiportal.rs/wp-content/uploads/2013/11/Globalna-procena-energetskog-potencijala-vetra-u-Srbiji.pdf" target="_blank" class="a">OVDE</a>.
+<br>
+<br>
+Za proizvodnju električne energije iz vetra potrebni su vetrogeneratori čiji su osnovni delovi elise, prenosni mehanizam, elektrogenerator, noseći stub i strujni transformator neophodan za priključivanje na elektrodistributivnu mrežu. Prečnik rotora može biti do 120 m, dok je težina jedne elise do 20 tona, a visina stuba sa vetrogeneratorom do <span class="crvenarec">130 m</span>. Kompletan vetrogenerator može da teži oko <span class="crvenarec">200 t</span>.
+<br>
+
+Veoma je važno da investitor bude upoznat sa neophodnošću kontinuiranog merenja brzine vetra u vremenskom rasponu od makar godinu dana jer jedino na taj način moguće je tačno proceniti koliko električne energije bi se proizvelo na razmatranoj lokaciji.
+Pogledajte pravac kretanja i brzinu vetra u našoj zemlji u realnom vremenu <a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=35.56,46.44,1821/loc=17.215,30.982" target="_blank" class="a" > na ovom linku</a>.
+<br>
+<img src="https://sites.google.com/site/petarblagojevictehobrazovanje/_/rsrc/1433686454077/peti-razred/energetika/energija-vode/aeroelktrana.gif" class="slikaudivulevo">
+Do 2030. godine vetar bi trebalo da omogući proizvodnju  <span class="crvenarec">četvrtine</span> od ukupno proizvedene električne energije u Evropskoj Uniji čime bi se znatno osigurao evropski energetski sistem. Trenutno se dobija više od  <span class="crvenarec">11%</span> električne energije iz ovog izvora. Ako se uzme u obzir da od svih novoizgrađenih elektropostrojenja u evropskim zemljama u prošloj godini čak  <span class="crvenarec">44%</span> koristi snagu vetra za proizvodnju električne energije, sasvim je jasno da ovaj izvor energije preuzima primat.
+Prvi vetroparkovi u našoj zemlji izgrađeni su tek u poslednjih nekoliko godina. I dok smo donedavno imali samo jedan vetropark u Tutinu od 500kW, tokom prošle godine puštena su u rad još dva vetrogeneratora ukupne snage 16,5 MW, a u međuvremenu Vlada Republike Srbije dala je zeleno svetlo za izgradnju vetroelektrana u Kovinu, Kovačici, Alibunaru, Plandištu i Vršcu. Ipak, izgradnja velikih vetroparkova u Srbiji očigledno pripada budućnosti.
+Propisane kvote Vlade Republike Srbije za vetroelektrane koje važe do kraja 2020. godine iznose 500 MW, a na osnovu brojnih studija utvrđeno je da bi Srbija mogla da dobije oko 2,5 milijarde kWh električne energije koristeći snagu vetra.
+
+Cena malih vetrogeneratora do 2 kW iznosi više od  <span class="crvenarec">1.200 evra</span> po kW instalisane snage, a veliki vetrogeneratori koštaju oko  <span class="crvenarec">700 evra</span> po kW instalisane snage. U svetu su najčešće zastupljeni vetrogeneratori snage od 1 MW do 3 MW.
+<br>
+I dok se energija vetra može iskoristiti na brojne načine – za pogon jedrilica, navodnjavanje i odvodnjavanje ili za proizvodnju mehaničke energije u vetrenjačama – čime se ostvaruje značajna ušteda, jedino se konvertovanjem eolske energije u električnu, u vetrogeneratorima priključenim na elektrodistributivnu mrežu, dolazi do konkretnog profita.
+Međutim, opsežnu proveru isplativosti ulaganja u vetropark trebalo bi poveriti stručnjacima.
+      </p>
+    </div> 
+<!-- /ENERGIJA VETRA -->
+<!--ENERGIJA SUNCA-->
+      <p class="sekcija">
+        <a id="energijasunca">
+          Energija sunca
+        </a>
+      </p>
+    <div class="meni">
+      <p class="malinaslov22">Većina energije koja je dostupna na Zemlji dolazi nam od Sunca</p>
+      <p class="tekstodvojenodbordera">
+
+  <span class="crvenarec">Zašto bismo uopšte koristili energiju Sunca?</span>
+ <br>
+ Sunčeva svetlost predstavlja izvor energije koji je zaslužan za povoljne klimatske uslove i postojanje ekosistema na našoj planeti. Većina energije koja je dostupna na Zemlji dolazi nam od Sunca, a čak i energija koju crpimo iz vetra, vode, biomase i svih fosilnih goriva zapravo potiče iz ovog izvora. Odgovarajućom tehnologijom možemo iskoristiti ovaj besplatan, ekološki i večan izvor energije.
+ Solarna tehnologija već se koristi za unapređenje životnog standarda.
+ <img src="http://semberske.com/wp-content/uploads/2017/11/Sunce.jpg" class="slikaudivudesno2">
+  Ona pre svega predstavlja logičan izbor u objektima na udaljenim područjima gde je mogućnost priključenja na elektrodistributivnu mrežu bilo samo otežana ili pak uopšte ne postoji.
+Ali to nije jedini razlog njene primene. Solarna tehnologija omogućava takođe i energetsku nezavisnost od elektrodistributivne mreže u objektima sa već postojećim priključkom.
+Korišćenjem ove energije možemo obezbediti dobijanje tople vode i struje iz obnovljivog izvora energije koji ne emituje štetne gasove, a time takođe utičemo i na ublažavanje nastalih klimatskih promena.
+<br>
+Kako možemo da koristimo solarnu energiju?
+<br>
+Solarnu energiju primamo u obliku svetla i toplote a nakon konvertovanja u različtim solarnim sistemima ona se može koristiti za dobijanje toplotne ili električne energije.
+ <span class="crvenarec">Postoje dve vrste solarnih sistema</span> koji se koriste za proizvodnju električne energije:
+ <br>
+– fotonaponski moduli konvertuju sunčevu energiju u električnu – prilikom apsorbovanja svetlosne energije atomi emituju elektrone i tako se stvara fotoelektrični efekat
+<br>
+– sunčeva energija se fokusira putem ogledala i koncentratora u tačku maksimalne proizvodnje toplotne energije iz koje se konvencionalnim metodama (parnom turbinom ili na drugi način) proizvodi električna energija.
+<br>
+ <span class="crvenarec">Srbija ima znatno veći broj časova Sunčevog zračenja nego većina evropskih zemalja</span>, a najbolji uslovi su u jugoistočnom delu naše zemlje. Na priloženim mapama možete uporediti prosečnu godišnju osunčanost u različitim delovima Srbije.
+<br>
+Trenutno propisane kvote Vlade Republike Srbije za solar iznose  <span class="crvenarec">10MW</span>, a to je podeljeno na sledeći način:
+<br>
+–  <span class="crvenarec">4MW</span> za solarne elektrane na objektima, s tim da je polovina ove snage predviđena za male solarne elektrane do 30kW, a druga polovina za solarne elektrane od 30 do 500kW;
+–  <span class="crvenarec">6MW</span> propisano je za solarne elektrane na zemlji.
+<br>
+Da biste dobili procenu proizvodnih kapaciteta na određenoj lokaciji u zavisnosti od zračenja i geografske širine unesite tražene podatke na sajt Instituta za životnu sredinu i održivost Evropske komisije.
+</p>
+<div style="display: inline-block;">
+<img src="http://www.melektronik.co.rs/images/solarni%20paneli/slika-4.jpg" class="slikapolapolalevo">
+<img src="https://techcrunch.com/wp-content/uploads/2015/09/shutterstock_72500704.jpg?w=730&crop=1" class="slikapolapoladesno">
+</div>
+  <p class="tekstodvojenodbordera">
+<br>
+Kakva je korist od ulaganja u solarnu elektranu?
+<br>
+Za početak potrebno je naglasiti da se korist od ugradnje solarnih panela za podmirivanje sopstvenih potreba za električnom energijom sastoji isključivo u tome što se na taj način u domaćinstvu mogu drastično smanjiti računi za električnu energiju. Za postavljanje panela za ovu namenu potrebna je ishodovati rešenje u skladu sa važećim Zakonom o planiranji i izgradnji, član 145.  <span class="crvenarec">Veoma je važno napraviti dobar proračun </span> pogotovo ako je cilj potpuna energetska nezavisnost od elektrodistributivne mreže.
+Međutim, jedino se ulaganjem u veće solarne elektrane može doći do profita a za njihovu izgradnju potrebno je zadovoljiti tehničke, administrativne i finansijske uslove.
+<br>
+Prednosti ulaganja u solarnu elektranu su sledeće:
+<br>
+ * Podsticajna otkupna cena električne energije
+ <br>
+* Zagarantovana cena otkupa na period od 12 godina svim investitorima kojima je država dodelila status povlašćenih proizvođača
+<br>
+* Relativno kratak period isplativosti investicije – od 8 do 10 godina
+<br>
+* Zemljište male upotrebne vrednosti (lošeg kvaliteta) može biti iskorišćeno za izgradnju solarnih elektrana na zemljištu u skladu sa prostornim planovima opštine
+<br>
+* Mogućnost korišćenja pogodnih krovnih površina kuća, hala i javnih objekata za postavljanje panela
+<br>
+* Laka i relativno brza izgradnja malih solarnih elektrana
+<br>
+* Veoma niski troškovi održavanja – potreba za čišćenjem panela postoji samo tokom jakih snežnih padavina
+<br>
+* Nizak trošak amortizacije
+<br>
+* Nema buke niti zagađivanja okoline
+<br>
+      </p>
+
+    </div>
+<!-- /ENERGIJA SUNCA -->
+<!-- ENERGIJA VODE -->
+<div>
+<p class="sekcija">
+    <a id="energijavode">
+      Energija vode
+    </a>
+  </p>
+  <p class="malinaslov22">Većinu struje od obnovljivih izvora energije dobijamo iz hidroelektrana</p>
+  <p class="tekstodvojenodbordera">
+    Zašto pojedini investitori samo izgube ogroman novac i vreme u pripremi projekta za izgradnju male hidroelektrane i nakon dugog lutanja kroz sistem institucija nadležnih za oblast obnovljivih izvora energije i njihovu zahtevnu proceduru naposletku budu prinuđeni da od svog skupog projekta ipak odustanu?
+ <br>
+Da biste dobili odgovor na ovo ključno pitanje navešćemo vam primer koji jasno oslikava neposredna iskustva investitora u ovoj oblasti.
+Tokom 2013. godine  <span class="crvenarec">120 kompanija</span> dobilo je lokacije za izgradnju malih hidroelektrana nakon dva javna poziva koje je uputilo Ministarstvo energetike.
+<br>
+Ovaj projekat koje je resorno ministarstvo vrlo ambiciozno najavljivalo trebalo je da pospeši ulaganje u obnovljive izvore energije kako bi se ispunile obaveze prema Energetskoj zajednici sa kojom imamo potpisan ugovor koji Srbiju obavezuje da do  <span class="crvenarec">2000. godine</span> udeo obnovljivih izvora energije u ukupnoj potrošnji energije dosegne  <span class="crvenarec">27%</span>.
+<br>
+U naredne dve godine investitori su duboko zagazili u proces prikupljanja dokumenata (od brojnih mišljenja, saglasnosti, studija do raznih dozvola), i svi su očekivali da uspešno okončaju neophodnu proceduru što je trebalo da dovede do izgradnje nekoliko stotina malih hidroelektrana.
+</p>
+<p>
+<img src="http://okpais.com/wp-content/uploads/2017/07/Se-construir%C3%A1-importante-hidroel%C3%A9ctrica-en-Choc%C3%B3-750x445.jpg" class="slikahidroelektrana">
+</p>
+<p class="tekstodvojenodbordera">
+Međutim, uprkos velikom interesovanju, uloženom trudu i novcu, zatim i garanciji da će vlasnici izgrađenih hidroelektrana dobiti status povlašćenog proizvođača električne energije, što je značilo da će Elektroprivreda Srbije kupovati od njih proizvedenu električnu energiju po povlašćenoj ceni, veliki broj investitora odustao je od svojih planova izgubivši u proseku oko godinu dana i desetak hiljada evra pripremajući projekat.
+<br>
+Zašto je propao plan izgradnje hidroelektrana?
+<br>
+Razlozi su brojni, a ovde navodimo samo nekoliko primedbi investitora na pripremni proces koji je trebalo da dovede do izrade generalnog projekta izgradnje hidroelektrane:
+<br>
+– Podaci o lokacijama potiču iz neažuriranog državnog premera zemljišta
+<br>
+– Ne postoje tačni podaci o potencijalu vodenog toka
+<br>
+– Složena procedura izdavanja mišljenja i dozvola brojnih resornih državnih ustanova
+<br>
+– Nerešeni imovinsko-pravni odnosi na lokacijama
+<br>
+– Komplikovan postupak priključivanja na elektrodistributivnu mrežu, kao i neočekivano uvećanje troškova u slučaju kada je mesto priključenja veoma udaljeno od elektrane
+<br>
+<img src="https://mocvode.files.wordpress.com/2015/03/20140626052526-hydro-power-plant.jpg?w=700" class="slikaudivudesno">
+<br>
+Čak i oni investitori koji su ipak uspeli da prođu kroz administrativni, tehnički i finansijski lavirint da bi izgradili hidroelektranu, tvrde da je propisani rok od dve godine da se postrojenje pusti u redovan rad veoma teško ispuniti.
+Međutim, potražnja za električnom energijom i dalje raste.
+<br>
+Prema usvojenom Nacionalnom akcionom planu za obnovljive izvore energije do 2020. godine potrebno je u Srbiji izgraditi nove elektrane ukupne instalisane snage  <span class="crvenarec">1.092 MW</span>. Prema projektovanoj količini instalisane snage udeo mini-hidroelektrana u ukupnoj proizvodnji električne energije iznosiće  <span class="crvenarec">438 MW</span>.
+<br>
+A koje su zapravo dobiti od investiranja u gradnju elektrane?
+<br>
+* Povlašćena otkupna cena električne energije
+Dobijanjem statusa povlašćenog proizvođača električne energije investitor može prodati proizvedenu električnu energiju ovlašćenom distributeru.
+<br>
+* Očuvanje životne sredine
+<br>
+<br>
+Kako odabrati dobru projektantsku kuću?
+<br>
+Iako su prepreke na putu izrade projekta male hidroelektrane brojne, a procedura dobijanja statusa povlašćenog proizvođača električne energije duga, pravi izbor projektantske kuće znatno će vam olakšati čitav proces pripreme kao i izgradnje hidroelektrane.
+Prilikom donošenje odluke o tome koga ćete angažovati da u vaše ime obavi neophodan stručan posao izrade studija, idejnog projekta i generalnog plana, biće vam važno da se uverite u to da projektantski tim ima dovoljno iskustva i praktičnog znanja u ovoj oblasti.
+  </p>
+    <br>
+</div>
+<!-- /ENERGIJA VODE -->
+<!-- GEOTERMALNA ENERGIJA -->
+<div>
+  <p class="sekcija">
+    <a id="geotermalnaenergija">
+      Geotermalna energija
+    </a>
+  </p>
+  <p class="malinaslov22">Geotermalnu energiju su koristili naši preci za gradnju velikih kupatila</p>
+  <p class="tekstodvojenodbordera">
+  Šta je geotermalna energija?
+  <br>
+ Kad se energija, usled neprekidnog zračenja toplote iz unutrašnjosti Zemlje, akumulira u vodi i gasovima, tad govorimo o hidrogeotermalnoj energiji, dok se pod petrotermalnom energijom podrazumeva njeno zadržavanje u čvrstim stenama.
+ <br>
+Iako se hidrogeotermalna energija decenijama već koristi, bilo direktno bilo za proizvodnju toplotne i električne energije, petrotermalna se tek odnedavno upotrebljava za zagrevanje i hlađenje objekata.
+<br>
+Koliko geotermalne energije ima na raspolaganju?
+<br>
+Danas postoje tehnološke mogućnosti za eksploataciju energije stena do dubine od  <span class="crvenarec">10 km</span>, ali je na većim dubinama ova energija mnogostruka veća i nama trenutno nedostupna. Hidrogeotermalni resursi su pak tehnički znatno više upotrebljivi i isplatljivi, iako ih ima manje. Ako uzmemo u obzir mogućnost iskorišćenja ove energije do dubine od 3 km, <span class="crvenarec"> njene globalne zalihe su 2.000 puta veće od rezervi uglja</span>.
+<br>
+Da bi se procenilo da li neko područje zadovoljava uslove za eksploataciju geotermalne energije potrebno je utvrditi blizinu i temperaturu vrele mase u odnosu na površinu zemlje. Vruću vodu i paru moguće je dopremiti na površinu i koristiti bez obzira na to da li su njihovi rezervoari smešteni u plitkim površinskim slojevima ili na dubini od nekoliko kilometara, a izbor tehnologije za eksploataciju kao i primena dobijene energije prevashodno zavisi od temperature ležišta. Ipak, najpraktičnije je koristiti ovu energiju na područjima gde se vrela masa nalazi blizu površine zemlje.
+<img src="http://www.croenergo.eu/Corvus/Media/MediaThumbnailHandler.ashx?type=0&Id=9098&flag=104&crop=1" class="slikaudivulevo">
+<br>
+Prema nekim podacima Srbija ima čak  <span class="crvenarec">360 izvorišta termalnih i termomineralnih voda</span> (s temperaturom koja se kreće od 14 do 98 stepeni). Naša zemlja se ističe značajnim hidrogeološkim i geotermalnim resursima u odnosu na prosečne vrednosti u Evropi budući da količina geotermalne toplote u Srbiji – toplota koja izbija na površinu Zemlje, obračunata po jednom m2 u svakoj sekundi (intenzitet radijacije) iznosi više od  <span class="crvenarec">100 mW/m2</span>, naspram evropskog potencijala od  <span class="crvenarec">60 mW/m2</span>.
+<br>
+Na koji način se može iskoristiti ovaj obnovljiv izvor energije?
+<br>
+Geotermalna energija može imati široku primenu – od proizvodnje električne energije u elektranama preko toplifikacije naselja do grejanja staklenika i plastenika, ali i u proizvodnji papira, pasterizaciji mleka, bazenima, procesu sušenja drveta, stočarstvu i dr.
+<br>
+Uprkos uvreženom mišljenju, nisu jedino prirodni i veštački izvori tople vode pogodni za eksploataciju. Geotermalni resursi niskih temperatura takođe mogu da se iskoriste pomoću toplotnih pumpi.
+Geotermalnu energiju je najjednostavnije iskoristiti za zagrevanje i hlađenje kuća i poslovnih prostorija pomoću tzv. otvorenog sistema, bilo direktnim korišćenjem geotermalne vode ili posredno primenom toplotnih pumpi. Predviđa se da će primena toplotnih pumpi u narednom periodu biti znatno veća jer ćemo usvajanjem zakonodavstva Evropske unije preuzeti i ovu obavezu.
+<br>
+Kad je reč o primeni geotermalne energije za proizvodnju električne energije, većina savremenih geotermalnih elektrana radi na principu separisanja pare što podrazumeva da se voda pumpa iz geotermalnih rezervoara ka elektrani što uzrokuje smanjenje pritiska pa se vruća voda pretvara u paru i pokreće turbine generatora. Elektrane koje rade na binarni princip koriste hladniju vodu u odnosu postrojenja s drugačijim načinom proizvodnje električne energije iz geotermalnih izvora, pa je dostupnost geotermalnih zaliha veća nego kod ostalih postupaka.
+<img src="http://www.ekokuce.com/sites/default/files/slike/geotermalna-elektrana.jpeg" class="slikaudivulevo">
+Izbor principa rada elektrane zavisi od vrste geotermalnog izvora, temperature, dubine i kvaliteta vode i pare.
+<br>
+Koje su prednosti geotermalne energije?
+<br>
+Od trenutka kad investitor stekne status povlašćenog proizvođača električne energije njemu se garantuje podsticajna otkupna cena proizvedene električne energije u vremenskom roku od  <span class="crvenarec">12 godina</span>, a povraćaj investicije može se očekivati u periodu  <span class="crvenarec">od 7 do 9 godina</span>.
+<br>
+Detaljne informacije nalaze se u Uredbi o podsticajnim merama
+<br>
+Za razliku od tradicionalnih izvora energije,<span class="crvenarec">geotermalna energija ističe se sledećim prednostima</span>:
+<br>
+– čista je i sigurna za sredinu
+<br>
+– praktično je neiscrpna
+<br>
+– njenom upotrebom smanjuje se korišćenje fosilnih goriva
+<br>
+– njena eksploatacija nije ograničena meteorološkim uslovima, dobom godine ili dana (za razliku od hidro, solarnih ili vetro elektrana)
+<br>
+– geotermalne elektrane ne zauzimaju veliki prostor i ne koriste drugu energiju za pokretanje pumpi osim one koju same proizvedu
+<br>
+– kada se geotermalna elektrana izgradi, energija je tada gotovo besplatna, uz malu sopstvenu potrošnju
+<br>
+– pruža mogućnost višenamenske upotrebe (utiče na ekonomsku opravdanost eksploatacije)
+<br>
+<br>
+Ipak trebalo bi imati u vidu da <span class="crvenarec">sledeći činioci</span> bitno utiču na mogućnost izgradnje geotermalne elektrane na određenoj lokaciji:
+<br>
+– položaj, dubina, temperatura i procenat vode u potencijalnom geotermalnom izvorištu
+<br>
+– sastav stena i dostupnost lokacije za eksploataciju
+<br>
+– prisustvo opasnih gasova i minerala koji otežavaju eksploataciju
+<br>
+– velika početna investicija kao i troškovi održavanja
+<br>
+<br>
+Koji je prvi korak u pripremi projekta za izgradnju geotermalne elektrane
+Preliminarna provera isplativosti ulaganja u geotermalnu elektranu podrazumeva izradu studije izvodljivosti kao i idejnog projekta, a taj posao bi trebalo poveriti stručnjacima sa iskustvom u pripremi neophodne tehničke dokumentacije.
+  </p>
+</div>
+<!-- /GEOTERMALNA ENERGIJA -->
+
+
+<!-- BIOMASA -->
+<div>
+<p class="sekcija">
+    <a id="biomasa">
+      Biomasa
+    </a>
+  </p>
+  <p class="malinaslov22">Nalazi se svuda oko nas, i čeka da je iskoristimo u dobre svrhe</p>
+  <p class="tekstodvojenodbordera";>
+     <span class="crvenarec"> Biomasa – najrasprostranjeniji i nedovoljno iskorišćen izvor energije </span>
+     <br>
+ Ograničeni resursi fosilnih goriva i efekat stakle bašte koji je čovek stvorio, vraćaju nas na održiva goriva. Biomasa je karbon-neutralni obnovljivi izvor energije koji je konstantno dostupan u eko-sistemima.
+ <br>
+U biomasu spadaju i biorazgradivi delovi nusproizvoda drvne industrije, otpaci i ostaci biološkog porekla iz poljoprivrede (što podrazumeva biljne i životinjske materije), kao i industrijskog i komunalnog otpada.
+<br>
+Sagorevanjem biomase dobija se toplotna energija koja se donedavno najčešće koristila za grejanje, kuvanje ili zagrevanje tople vode. U poslednjoj deceniji biomasa se upotrebljava i za proizvodnju električne energije. U energetske svrhe može se takođe koristiti i biogorivo, dobijeno konvertovanjem biomase u tečno stanje, kao i biogas, dobijen razlaganjem različitog biološkog otpada u gasovito stanje.
+<br>
+<img src="https://www.crownforest.rs/wp-content/uploads/2017/05/CrownForest-biomasa.jpg" class="slikabiomasa">
+Koliki je potencijal biomase u Srbiji?
+<br>
+Pri proceni raspoloživosti ovog sirovinskog potencijala, potrebno je uzeti u obzir <span class="crvenarec">sledeće podatke</span>:
+<br>
+* resurs biomase procenjuje se na 3,405 miliona tona naftnog ekvivalenta
+<br>
+* biomasa čini 61 odsto ukupnog potencijala obnovljivih resursa energije
+<br>
+* raspoloživa količina drvne mase, koja je mahom zastupljena u centralnoj Srbiji, iznosi 1,53 miliona tona naftnog ekvivalenta
+<br>
+* poljoprivredna biomasa (ostaci u ratarstvu, stočarstvu, voćarstvu, vinogradarstvu i primarnoj preradi voća) dostupna je u Vojvodini i njen potencijal iznosi <span class="crvenarec">oko 1,67 miliona tona naftnog ekvivalenta</span> ali stepen njenog iskorišćenja nije veći od <span class="crvenarec">2%</span>.
+<br>
+Kad je reč o biogorivu – a tu spadaju <span class="crvenarec">bioetanol</span> i <span class="crvenarec">biodizel</span> – trebalo bi imati u vidu da tržišni višak žitarica, kao i krompir, sirak i jerusalimska artičoka koji mogu namenski da se sade (energetski zasadi) na oko <span class="crvenarec">100.000 hektara</span> neiskorišćenog marginalnog zemljišta, predstavljaju sirovine za proizvodnju bioetanola dok se za proizvodnju biodizela koriste uljarice, kao što su suncokret, soja i uljana repica. One takođe mogu namenski da se uzgajaju na slobodnom zemljištu male upotrebne vrednosti čija se površina u Srbiji procenjuje na <span class="crvenarec">350.000 hektara</span>. Osim toga, gotovo <span class="crvenarec">10.000 tona</span> otpadnih jestivih ulja moguće je sakupiti i upotrebiti za proizvodnju biodizela.
+<br>
+Uprkos bogatim resursima biomase, kako sa aspekta njene biološke raznolikosti tako i u pogledu rasprostranjenosti, ona se u Srbiji ipak nedovoljno koristi za efikasno dobijanje energije. Štaviše, na jugu i istoku naše zemlje drvna masa se primarno i nekontrolisano upotrebljava kao drvo za ogrev.
+<br>
+<img src="https://cdn.agroklub.com/upload/images/text/thumb/biomasa-tchara-bigstock1-880x495.jpg" class="slikaudivulevo">
+Ipak, umesto što pretežno dobijamo ograničenu količinu neefikasno iskorišćene toplotne energije iz biomase, možemo je u namenskim postrojenjima upotrebiti za istovremeno dobijanje toplotne i električne energije.
+<br>
+Kako iskoristiti biomasu za proizvodnju energije?
+<br>
+Jedinstven termodinamički proces kombinovane proizvodnje toplotne i električne energije primenjen je u kogenerativnim postrojenjima (CHP eng. – combined heat and power) čime se iskoristivost biomase ili biogasa drastično povećava.
+<br>
+I dok u drugim, konvencionalnim sistemima za proizvodnju električne energije, faktor iskorišćenja primarnog goriva iznosi <span class="crvenarec">od 30% do 40%</span>, u CHP postrojenjima on doseže čak <span class="crvenarec">više od 85%</span> budući da se otpadna toplotna energija, u vidu pare ili tople vode, oslobođena u procesu proizvodnje električne energije koristi za potrebe tehnološkog procesa ili za grejanje prostora. Time se ostvaruju značajne uštede u operativnim i ukupnim troškovima postrojenja.
+<br>
+<img src="http://www.gradjevinarstvo.rs/ckfinder/userfiles/images/15_10_2015_03.jpg" class="slikaudivudesno">
+<br>
+*Postoji slobodan kapacitet za elektrane na biomasu i biogas budući da nisu još iskorišćene propisane kvote a koje će važiti do 2020. godine, i to <span class="crvenarec">prema sledećim kategorijama</span>:
+<br>
+-za elektrane na biomasu kvota je 100MW, a do sada instalisana snaga iznosi 10,948 MW
+<br>
+-za elektrane na biogas je 30MW, a iskorišćeno je 12 MW
+<br>
+-za elektrane na deponijski gas slododno je svih propisanih 10MW
+<br>
+-za elektrane na otpad takođe je slobodna celokupna propisana snaga od 3MW
+<br>
+<br>
+ Brojne prednosti pruža i sama instalacija CHP postrojenja: automatski i bezbedan rad i kontrola, niži pritisak u kotlu i mehanički stres turbine, visoki stepen efikasnosti turbine, miran rad, odsustvo potrebe za sistemom za prečišćavanje vode, veoma dug radni vek postrojenja i široki dijapazon primene CHP-a (drvna industrija, sušare, mlečna industrija, pivare, staklenici, prehrambena industrija).
+Svake godine pojačava se pritisak na energetski sistem s obzirom na to da cena osnovnih energenata raste, a propisi u oblasti zaštite životne sredine se pooštravaju. Zato je Vlada odredila kao jedan od svojih strateških ciljeva da poveća proizvodnju energije iz obnovljivih izvora kako bi se smanjila zavisnost naše zemlje od uvoza energenata i da bi se podigla energetska bezbednost.
+</div>
+<p>
+<img src="https://media.mehrnews.com/d/2017/04/22/4/2437964.jpg" id="svakidanjedan">
+
+</p>
+<!-- /BIOMASA -->
+<!-- RADIO: -->
+<p id="kraj">
+<span id="radio">Радио:</span> 
+<br>
+<span id="mt">Милош Тојагић</span>
+<br>
+<span id="e42">Е-42</span>
+
+</p>
+</div>
+
+  </body>
+</html>
